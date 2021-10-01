@@ -20,6 +20,10 @@ namespace TextRpg001
             Console.WriteLine($"공격력 : {AT}");
             Console.WriteLine($"체력 : {HP} / {MAXHP}");
             Console.WriteLine("---------------------------------------");
+            Console.WriteLine("---------------------------------------");
+            Console.WriteLine("---------------------------------------");
+            Console.WriteLine("---------------------------------------");
+            Console.WriteLine("---------------------------------------");
         }
         public virtual int ReturnAT() { return AT; }
         public void Damage(FightUnit _Target)
